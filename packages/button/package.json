@@ -1,0 +1,22 @@
+{
+  "name": "@gt-ui/button",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "yangjay <yj960203only@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}

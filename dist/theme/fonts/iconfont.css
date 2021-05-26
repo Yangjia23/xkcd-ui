@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "gt-iconfont"; /* Project id 1224112 */
+  src: url('iconfont.woff2?t=1621952133533') format('woff2'),
+       url('iconfont.woff?t=1621952133533') format('woff'),
+       url('iconfont.ttf?t=1621952133533') format('truetype');
+}
+
+.gt-iconfont {
+  font-family: "gt-iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gt-icon-reduce:before {
+  content: "\e633";
+}
+
+.gt-icon-add:before {
+  content: "\e6b9";
+}
+
+.gt-icon-error:before {
+  content: "\e62c";
+}
+
+.gt-icon-warning:before {
+  content: "\e836";
+}
+
+.gt-icon-success:before {
+  content: "\e605";
+}
+
+.gt-icon-info:before {
+  content: "\e630";
+}
+
+.gt-icon-info-outline:before {
+  content: "\e613";
+}
+
+.gt-icon-warning-outline:before {
+  content: "\e871";
+}
+
+.gt-icon-clear:before {
+  content: "\e68f";
+}
+
+.gt-icon-add-outline:before {
+  content: "\e625";
+}
+
+.gt-icon-reduce-outline:before {
+  content: "\e68e";
+}
+
+.gt-icon-error-outline:before {
+  content: "\e606";
+}
+
+.gt-icon-correct-outline:before {
+  content: "\e607";
+}
+
+.gt-icon-password:before {
+  content: "\e62b";
+}
+
+.gt-icon-password-close:before {
+  content: "\e723";
+}
+
+.gt-icon-password-open:before {
+  content: "\e724";
+}
+
+.gt-icon-email:before {
+  content: "\e641";
+}
+
+.gt-icon-search:before {
+  content: "\e66f";
+}
+
+.gt-icon-loading:before {
+  content: "\e6ae";
+}
+
+.gt-icon-setting:before {
+  content: "\e6ad";
+}
+
+.gt-icon-setting1:before {
+  content: "\e735";
+}
+
+.gt-icon-down:before {
+  content: "\e614";
+}
+
+.gt-icon-up:before {
+  content: "\e615";
+}
+
+.gt-icon-left:before {
+  content: "\e616";
+}
+
+.gt-icon-right:before {
+  content: "\e617";
+}
+
+.gt-icon-thumbs-up:before {
+  content: "\e870";
+}
+
+.gt-icon-download:before {
+  content: "\e60c";
+}
+

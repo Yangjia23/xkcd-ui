@@ -1,0 +1,27 @@
+{
+  "name": "gtui",
+  "private": true,
+  "main": "./dist/gtui.umd.js",
+  "module": "./dist/gtui.es.js",
+  "scripts": {
+    "build": "vite build --config ./build/vite.config.build.js && npm run build:disperse && npm run generate:theme",
+    "build:disperse": "vite build --config ./build/vite.config.build.disperse.js",
+    "docs:dev": "vite --config ./website/vite.config.js",
+    "generate:theme": "node ./build/generate-theme.js"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.11",
+    "lerna": "^4.0.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "sass": "^1.34.0",
+    "vite": "^2.3.3"
+  },
+  "dependencies": {
+    "typescript": "^4.2.4",
+    "vue": "^3.0.11"
+  }
+}

@@ -1,0 +1,37 @@
+@import '../commons/config.scss';
+
+// .gt-button{}
+@mixin b($block) {
+  $B: $namespace + '-' + $block;
+  .#{$B}{
+    @content;
+  }
+}
+
+// &__label => .gt-button__label {}
+@mixin e($element) {
+  @at-root{
+    #{& + $element-separator + $element}{
+      @content;
+    }
+  }
+}
+
+// &--mini => .gt-button--mini {}
+@mixin m($modifier) {
+  @at-root{
+    #{& + $modifier-separator + $element}{
+      @content;
+    }
+  }
+}
+
+// .gt-button.is-xxx
+@mixin when($state) {
+  @at-root {
+    $S: $state-prefix + $state;
+    &.#{$S} {
+      @content;
+    }
+  }
+}
